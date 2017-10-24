@@ -40,13 +40,19 @@ I have to say, however, the idea's proponents do not escape culpability for thes
 
 Instead of the "let's just build something that works" attitude that made the Web (and the Internet) such a roaring success, they brought the formalizing mindset of mathematicians and the institutional structures of academics and defense contractors. They formed committees to form working groups to write drafts of ontologies that carefully listed (in 100-page Word documents) all possible things in the universe and the various properties they could have, and they spent hours in Talmudic debates over whether a washing machine was a kitchen appliance or a household cleaning device.
 
-> “建造一些有用的东西”，这一态度曾让互联网获得了巨大成功，而上述这些人并非秉持这一观念。他们带给互联网的，是数学家们的固定思维，以及学者和国防承包商那样墨守成规的结构体系。他们为工作小组设立委员会，在长达100页的word文档里详细列举了有关语义本体的所有可能性，以及它们可能拥有的各种性质。（因执着于探究事物的本质），他们花费数小时开展塔木德式辩论，仅仅为了争论洗衣机在本质上究竟属于厨房配件，还是清洁设备。
+> “创造一些有用的东西”，这一态度曾让互联网获得了巨大成功，而上述这些人并非秉持这一观念。他们带给互联网的，是数学家的固定思维，以及学者和国防承包商那样墨守成规的结构体系。他们为工作小组设立委员会，在长达100页的word文档里详细列举了有关语义本体的所有可能性，以及它们可能拥有的各种性质。（因执着于探究事物的本质），他们花费数小时开展塔木德式辩论，仅仅为了争论洗衣机在本质上究竟属于厨房配件，还是清洁设备。
 
 With them has come academic research and government grants and corporate R&D and the whole apparatus of people and institutions that scream "pipedream". And instead of spending time building things, they've convinced people interested in these ideas that the first thing we need to do is write _standards_. (To engineers, this is absurd from the start -- standards are things you write _after_ you've got something working, not before!)
 
+> 学术研究、政府拨款和企业研发纷至沓来，这一幻想的拥趸也蜂拥而至。他们忙着说服饶有兴趣的人们，实现这个想法的第一要务就是撰写标准，却不花时间投入实际创造。（对于工程师来说，这一开始就是莫大的讽刺，标准是根据工作成果制定的，而非空穴来风。）
+
 And so the "Semantic Web Activity" at the Worldwide Web Consortium (W3C) has spent its time writing standard upon standard: the Extensible Markup Language (XML), the Resource Description Framework (RDF), the Web Ontology Language (OWL), tools for Gleaning Resource Descriptions from Dialects of Languages (GRDDL), the Simple Protocol And RDF Query Language (SPARQL) (as created by the RDF Data Access Working Group (DAWG)).
 
+> 此后，万维网联盟（Worldwide Web Consortium, W3C）发起的语义网运动在标准之上撰写了很多标准，其中包括：可扩展标记语言（Extensible Markup Language, XML）、资源描述框架（Resource Description Framework, RDF）、网络本体语言（Web Ontology Language, OWL）、本地语言的资源集成描述工具（Gleaning Resource Descriptions from Dialects of Language，GRDDL）和由RDF数据访问工作组（RDF Data Access Working Group，DAWG）制定的数据获取协议和查询语言（Simple Protocol And RDF Query Language，SPARQL）。
+
 Few have received any widespread use and those that have (XML) are uniformly scourges on the planet, offenses against hardworking programmers that have pushed out sensible formats (like JSON) in favor of overly-complicated hairballs with no basis in reality (I'm not done yet! -- more on this in chapter 5).
+
+> 上述标准却鲜有问津，那些有人使用的标准，比如可扩展标记语言（XML）也都是这个星球上的祸害，是对认真工作的程序员的不敬。这些标准排挤了例如JavaScript对象表示法（JSON）这样的合理规范，来迎合那些毫无现实基础的过誉毛线团代码。（还没吐槽完，详见第五章）
 
 Instead of getting existing systems to talk to each other and writing up the best practices, these self-appointed guarantors of the Semantic Web have spent their time creating their own little universe, complete with Semantic Web databases and programming languages. But databases and programming languages, while far from perfect, are largely solved problems. People already have their favorites, which have been tested and hacked to work in all sorts of unusual environments, and folks are not particularly inclined to learn a new one, especially for no good reason. It's hard enough getting people to share data as it is, harder to get them to share it in a particular format, and completely impossible to get them to store it and manage it in a completely new system.
 
